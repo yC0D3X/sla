@@ -1,0 +1,29 @@
+<meta>
+	<info  author="__Vector__" name="Quake Sounds" version="1.0" type="script" description="Just Quake Sounds :) Enjoy it" />
+	
+	
+	<script src="quake_sounds_client_config.lua" type="client" />
+	<script src="quake_sounds_client.lua" type="client" />
+	<script src="quake_sounds_server_config.lua" type="server" />
+	<script src="quake_sounds_server.lua" type="server" />
+	
+	<export function="QuakeSoundsInitRound" type="server" />
+	<!-- this function will init the "round", so that first blood will be triggered when the first kill take place (for example),
+		and also, the "scores" of the players are restarted. -->
+	
+	<file src="quake_sounds_config.xml" />
+	
+	<file src="sounds/Dominating.mp3" />
+	<file src="sounds/Double_Kill.mp3" />
+	<file src="sounds/firstblood.mp3" />
+	<file src="sounds/GodLike.mp3" />
+	<file src="sounds/HolyShit.mp3" />
+	<file src="sounds/Killing_Spree.mp3" />
+	<file src="sounds/MegaKill.mp3" />
+	<file src="sounds/monster_kill.mp3" />
+	<file src="sounds/triple_kill.mp3" />
+	<file src="sounds/WhickedSick.mp3" />
+	<file src="sounds/Unstoppable.mp3" />
+	<file src="sounds/Headshot.mp3" />
+	<file src="sounds/humiliation.mp3" />
+</meta>

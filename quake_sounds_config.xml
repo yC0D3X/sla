@@ -1,0 +1,17 @@
+<config messagexpos="0.25" messageypos="0.16" messagevelocity="48.22" messagetimefade="2000" messagefont="pricedown" messagefontscale="1.2">
+	<quake_sound name="fristblood" sound="sounds/firstblood.mp3" scope="all" killer="all" kills="1" message="%s just drew #E70101 First Blood!!" />
+	<quake_sound name="doublekill" sound="sounds/Double_Kill.mp3" scope="player" killer="player" kills="2" message="%s just got a #3FE701Double #E78F01Kill!!" killdelay="2500"/>
+	<quake_sound name="triplekill" sound="sounds/triple_kill.mp3" scope="player" killer="player" kills="3" message="%s just got a #D001E7Trip#01DCE7le#AFBCBCKill#AB2A2A!!" killdelay="3000"/>
+	<quake_sound name="killinspree" sound="sounds/Killing_Spree.mp3" scope="all" killer="player" kills="3" message="%s has a #707AE1Killing #44FA0CSpree!!"/>
+	<quake_sound name="dominating" sound="sounds/Dominating.mp3" scope="all" killer="player" kills="4" message="%s is #7213CBDominating!"/>
+	<quake_sound name="megakill" sound="sounds/MegaKill.mp3" scope="all" killer="player" kills="5" message="%s has a #1AE9D7Has #E91AD7a #E9D81AMegaKill!!"/>
+	<quake_sound name="unstoppable" sound="sounds/Unstoppable.mp3" scope="all" killer="player" kills="6" message="%s #E91A32is #A41AE9Unstoppable!"/>
+	<quake_sound name="wickedsick" sound="sounds/WhickedSick.mp3" scope="all" killer="player" kills="7" message="%s is #2BF50CWicked #F5DD0CSick!!"/>
+	<quake_sound name="monsterkill" sound="sounds/monster_kill.mp3" scope="all" killer="player" kills="8" message="%s has a #0CF598Monster #F5B70CKill!"/>
+	<quake_sound name="godlike" sound="sounds/GodLike.mp3" scope="all" killer="player" kills="9" message="%s is #36406AGood#FC4242like!" />
+	<quake_sound name="holyshit" sound="sounds/HolyShit.mp3" scope="all" killer="player" kills="10" message="%s is the #3FE701Fucking #F5B700Master!!"/>
+	<quake_sound name="headshot" sound="sounds/Headshot.mp3" scope="player" killer="player" kills="0" message="%s #E78F01HeadShot!!" bodypart="head" />
+	<quake_sound name="humiliation" sound="sounds/humiliation.mp3" scope="all" killer="player" kills="0" message="%s #2BF50CHumiliate %s !!" weapon="knife" />
+	
+</config>
+
